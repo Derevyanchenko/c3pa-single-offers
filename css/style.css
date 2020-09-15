@@ -369,6 +369,9 @@
   margin-bottom: 23px;
   margin-top: 0;
   font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 .singleOffer__main p span {
@@ -451,6 +454,9 @@
   font-size: 24px;
   line-height: 29px;
   font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 .singleOffer__content-question p span {
@@ -522,6 +528,9 @@
   font-size: 24px;
   line-height: 29px;
   color: #FFFFFF;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 .singleOffer__case-content p:last-child {
@@ -554,6 +563,7 @@
 
 .singleOffer__details-content {
   max-height: 304px;
+  max-height: 180px;
   overflow-y: hidden;
 }
 
@@ -564,6 +574,9 @@
   color: #FFFFFF;
   margin-top: 0;
   margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 .singleOffer__details-content p:last-child {
@@ -796,6 +809,9 @@
   .singleOffer__main p {
     font-size: 20px;
     line-height: 25px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
   }
 
   .singleOffer__main__right {
@@ -810,6 +826,9 @@
   .singleOffer__content-question p {
     font-size: 20px;
     line-height: 25px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
   }
 
   .singleOffer__title {
@@ -820,11 +839,17 @@
   .singleOffer__case-content p {
     font-size: 20px;
     line-height: 25px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
   }
 
   .singleOffer__details-content p {
     font-size: 24px;
     line-height: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
   }
 
   .singleOffer__case .singleOffer__title {
@@ -1056,7 +1081,7 @@
 
   .singleOffer__other .singleOffer__title {
     font-size: 18px;
-    line-height: 22px;
+    line-height: 25px;
   }
 
   .singleOffer__other-box {

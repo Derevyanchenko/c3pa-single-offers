@@ -69,6 +69,21 @@ $(document).ready(function() {
     ]
   }); 
 
+      // offers height calc
 
+      var heights = $(".singleOffer__other-content").map( function(){ 
+        return $(this).height();
+      }).get();
+    
+      maxHeight = Math.max.apply(null, heights);
+    
+        // set the same column height in offers
+    
+      $(".singleOffer__other-content").each(function() {
+    
+        $(this).css("height", maxHeight);
+    
+      });
 
 });
+
