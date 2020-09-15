@@ -116,11 +116,27 @@
   .singleOffer .dd_container {
     max-width: 540px;
   }
+
+  .singleOffer__other-prev {
+    left: 15px !important;
+  }
+
+  .singleOffer__other-next {
+    right: 15px !important;
+  }
 }
 
 @media (min-width: 768px) {
   .singleOffer .dd_container {
     max-width: 720px;
+  }
+
+  .singleOffer__other-prev {
+    left: 0 !important;
+  }
+
+  .singleOffer__other-next {
+    right: 0 !important;
   }
 }
 
@@ -128,11 +144,41 @@
   .singleOffer .dd_container {
     max-width: 960px;
   }
+
+  .singleOffer__other-prev {
+    left: 15px !important;
+  }
+
+  .singleOffer__other-next {
+    right: 15px !important;
+  }
 }
 
 @media (min-width: 1200px) {
   .singleOffer .dd_container {
-    max-width: 1300px;
+    max-width: 1070px;
+  }
+
+  .singleOffer__other-prev {
+    left: 0 !important;
+  }
+
+  .singleOffer__other-next {
+    right: 0 !important;
+  }
+}
+
+@media (min-width: 1366px) {
+  .singleOffer .dd_container {
+    max-width: 1280px;
+  }
+
+  .singleOffer__other-prev {
+    left: 15px !important;
+  }
+
+  .singleOffer__other-next {
+    right: 15px !important;
   }
 }
 
@@ -881,6 +927,10 @@
 }
 
 @media (max-width: 991px) {
+  .singleOffer__details-showMore img {
+    max-width: 30px;
+  }
+
   .singleOffer .col-lg-3 {
     display: none;
   }
@@ -940,6 +990,10 @@
 }
 
 @media (max-width: 767px) {
+  .singleOffer__details-showMore img {
+    max-width: 25px;
+  }
+
   .singleOffer .col-lg-3 {
     display: none;
   }
