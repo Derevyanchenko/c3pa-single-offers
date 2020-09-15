@@ -182,6 +182,12 @@
   }
 }
 
+@media (min-width: 1200px) and (max-width: 1366px) {
+  .singleOffer__advan-title br {
+    display: none !important;
+  }
+}
+
 .singleOffer {
   padding-top: 116px;
   padding-bottom: 0;
